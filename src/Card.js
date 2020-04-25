@@ -1,15 +1,9 @@
 import React from 'react';
 
 class Card extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            
-        }
-    }
     render() {
         return(
-            <div className="bg-light-green dib br3 pa3 ma2 grow">
+            <div className=" grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5">
                 <img src="https://robohash.org/test" alt="robots" />
                 <div>
                     <h2>{this.props.name}</h2>
